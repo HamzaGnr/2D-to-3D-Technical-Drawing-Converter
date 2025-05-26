@@ -89,3 +89,6 @@ def cleanup_dataset_files(dataset_path):
     print(f"Rotated dosyaları: {rotated_deleted}")
     print(f"Noisy dosyaları: {noisy_deleted}")
     print(f"Toplam: {rotated_deleted + noisy_deleted} dosya silindi.")
+
+if __name__ == '__main__':
+    print("Toplam veri sayısı: ", veri_say())
