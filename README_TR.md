@@ -93,7 +93,7 @@ Marching Cubes → 3D Mesh → Görselleştirme
 
 ## 📊 Test Sonuçları
 
-Son test (data_5.png) ile elde edilen sonuçlar:
+Son test ile elde edilen sonuçlar:
 
 | Metrik | Değer | Açıklama |
 |--------|-------|----------|
@@ -132,43 +132,27 @@ Sistem işlem sırasında debug dosyaları oluşturur:
 6. **V6**: Gelişmiş kontur seçim algoritması
 7. **Final**: Voxel-tabanlı delik açma sistemi
 
-## 🔮 Gelecek Geliştirmeler
-
-### Kısa Vadeli
-- Çoklu görünüm desteği (ön, yan, üst)
-- STL, OBJ export özellikleri
-- Batch processing
-
-### Orta Vadeli
-- Machine Learning tabanlı şekil tanıma
-- Teknik çizim standartları desteği
-- Ölçü bilgilerinin otomatik çıkarılması
-
-### Uzun Vadeli
-- Deep Learning ile tam otomatik rekonstrüksiyon
-- Parametrik CAD model oluşturma
-- Web tabanlı interface
-
-## 📄 Rapor
-
-Detaylı teknik rapor için `2D_to_3D_Proje_Raporu_YYYYMMDD_HHMM.pdf` dosyasını inceleyiniz.
-
-Rapor oluşturmak için:
-```bash
-python proje_raporu.py
-```
-
-## 🤝 Katkıda Bulunma
-
-1. Fork yapın
-2. Feature branch oluşturun (`git checkout -b feature/amazing-feature`)
-3. Commit yapın (`git commit -m 'Add amazing feature'`)
-4. Push yapın (`git push origin feature/amazing-feature`)
-5. Pull Request açın
-
 ## 📝 Lisans
 
 Bu proje MIT lisansı altında lisanslanmıştır.
+
+## Nasıl Katkı Sağlayabilirim?
+
+1. Fork'la ve kendi repo'nu oluştur
+2. Yeni bir branch oluştur (`feature/xyz`)
+3. Geliştirmeni yap
+4. Pull request (PR) gönder
+
+## Kodlama Kuralları
+
+- Kodlarını açıklayıcı yorumlarla destekle
+- Değişikliklerin proje yapısına uygun olmasına dikkat et
+- Gerekiyorsa test dosyalarını da ekle
+
+## İletişim
+
+Herhangi bir sorun ya da öneri için GitHub Issue açabilirsin veya benimle iletişime geç:  
+📧 hamzaebrarguner@gmail.com
 
 ## 👨‍💻 Geliştirici
 
@@ -177,15 +161,3 @@ Bu proje MIT lisansı altında lisanslanmıştır.
 - Teknolojiler: Python, OpenCV, Open3D, NumPy, scikit-image
 
 ---
-
-## 🎉 Başarı Hikayeleri
-
-> "Kırmızı çizgilerle sahte deliklerden, gerçek voxel-tabanlı deliklere kadar uzanan epik bir geliştirme yolculuğu!" 😄
-
-### Komik Anlar
-- İlk versiyonda delikleri kırmızı çizgilerle "işaretliyorduk" 😅
-- Boolean işlemler çalışmayınca voxel seviyesinde çözüm bulduk
-- %99.5 delik oranından %86.8'e düşürdük (çok daha mantıklı!)
-
-**Sonuç**: Artık gerçek delikleri olan, profesyonel 3D modeller oluşturuyoruz! 🎯
-
